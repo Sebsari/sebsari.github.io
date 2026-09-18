@@ -1,1 +1,19 @@
-
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.sebsari.twa",
+      "sha256_cert_fingerprints": [
+        "0E:24:F9:D3:B8:4C:9A:94:29:72:01:C4:3A:FA:FE:3A:15:7C:4E:F3:5B:CB:44:0C:D7:AA:00:97:BC:66:C8:00"
+      ]
+    }
+  },
+  {
+    "relation": ["check_validation"],
+    "target": {
+      "namespace": "cafebazaar_twa",
+      "package_name": "io.github.sebsari.twa"
+    }
+  }
+]
